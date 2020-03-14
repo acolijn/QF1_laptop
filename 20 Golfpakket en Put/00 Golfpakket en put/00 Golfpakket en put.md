@@ -13,3 +13,4 @@ worden gebruikt. De python instructies zijn opgenomen in het workbook.
 Na de download in je anaconda-navigator de jupyter notebooks starten. 
 Navigeer naar de locatie waar je het notebook hebt opgeslagen en open het.... 
 
+---
