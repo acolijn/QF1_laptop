@@ -14,7 +14,8 @@ Na de download in je anaconda-navigator de jupyter notebooks starten.
 Navigeer naar de locatie waar je het notebook hebt opgeslagen en open het.... 
 
 
-<!DOCTYPE html>
+-------------------------------------------------------------------------
+
 <html>
 <head><meta charset="utf-8" />
 
@@ -13412,9 +13413,6 @@ meeste Python code die je nodig zal hebben wordt je dan ook aangeboden. Nieuw za
     </div>
   </div>
 </body>
-
- 
-
 
 </html>
 
