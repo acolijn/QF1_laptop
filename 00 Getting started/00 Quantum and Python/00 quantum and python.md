@@ -33,7 +33,7 @@ Documentatie voor de Jupyter notebooks [hier](https://jupyter-notebook.readthedo
 
 Op een windows machine start "Anaconda Navigator" (op MAC iets soortgelijks, maar kan ik even niet testen)
 
-![Image](./anaconda_start_up.png){:.inline}{:style="max-width:30%"} 
+![Image](./anaconda_start_up.png){:style="max-width:30%"} 
 
 Klik daarna op "Launch" Jupyter Notebook. 
 ![Image](./anaconda_navigator.png)
