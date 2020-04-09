@@ -1,6 +1,6 @@
 ## Quantum in Python
 
-De laptopcolleges bij QF1 zij nerop gericht om quantummechanica inzichtelijk te maken, en dan met name de 
+De laptopcolleges bij QF1 zijn erop gericht om quantummechanica inzichtelijk te maken, en dan met name de 
 tijdsafhankelijke oplossingen van de Schrodinger vergelijking. De reden om dit te doen in de vorm van een 
 computer practicum is dat het met de hand oplossen van de tijdsafhenkelijke Schodinger vergelijking hel veel
 werk is. Daarnaast is het nagenoeg onmogelijk om het dynamische gedrag van de oplossingen op waarde te schatten.
@@ -26,7 +26,7 @@ van python te pakken gekregen.
 ### Jupyter notebooks
 
 Alle problemen zijn geschereven in python, die is ingebed in zogenaamde Jupyter notebooks. We gaan jullie vragen om 
-deze notebooks ook te gebruiken. Dit is niet moeilijk, en voor het aanppakken van problemen extreem overzichtelijk. 
+deze notebooks ook te gebruiken. Dit is niet moeilijk, en voor het aanpakken van problemen overzichtelijk. 
 Documentatie voor de Jupyter notebooks [hier](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
 
 ## Beginnen
@@ -38,7 +38,7 @@ Op een windows machine start "Anaconda Navigator" (op MAC iets soortgelijks, maa
 Klik daarna op "Launch" Jupyter Notebook. 
 ![Image](./anaconda_navigator.png){:style="max-width:50%"} 
 
-Er start dan een Browser window waarin je kann navigeren naar de plek waar je je Jupter notebooks hebt geparkeerd.
+Er start dan een Browser window waarin je kan navigeren naar de plek waar je je Jupter notebooks hebt geparkeerd:
 ![Image](./jupter_file_browser.png){:style="max-width:50%"} 
 
 
