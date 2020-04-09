@@ -36,10 +36,10 @@ Op een windows machine start "Anaconda Navigator" (op MAC iets soortgelijks, maa
 ![Image](./anaconda_start_up.png){:style="max-width:30%"} 
 
 Klik daarna op "Launch" Jupyter Notebook. 
-![Image](./anaconda_navigator.png)
+![Image](./anaconda_navigator.png){:style="max-width:50%"} 
 
 Er start dan een Browser window waarin je kann navigeren naar de plek waar je je Jupter notebooks hebt geparkeerd.
-![Image](./jupter_file_browser.png?(100x100))
+![Image](./jupter_file_browser.png){:style="max-width:50%"} 
 
 
 
