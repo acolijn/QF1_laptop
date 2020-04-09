@@ -20,14 +20,16 @@ jullie hebben Anaconda al geinstalleerd, en kunnen deze stap dus overslaan.
 ### Python
 
 Alle code is gemaakt in python: net als voor het N&S proogrammeervak (Dubbele BSc stduenten hebben dit vak nog niet 
-gehad, dus die gaan python leren on-the-fly). Met jullei Anaconda installatie hebben jullie ook een goede versie 
-van python te pakken gekregen.
+gehad, dus die gaan python leren on-the-fly). Met de Anaconda installatie hebben jullie ook een goede versie 
+van python te pakken gekregen. 
 
 ### Jupyter notebooks
 
-Alle problemen zijn geschereven in python, die is ingebed in zogenaamde Jupyter notebooks. We gaan jullie vragen om 
+Alle problemen zijn geschreven in python, die is ingebed in zogenaamde Jupyter notebooks. We gaan jullie vragen om 
 deze notebooks ook te gebruiken. Dit is niet moeilijk, en voor het aanpakken van problemen overzichtelijk. 
 Documentatie voor de Jupyter notebooks [hier](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
+
+De doceumentatie voor de opdrachten die jullie gaan doen staat in de python notebooks.
 
 ## Beginnen
 
