@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
 
 <title>2_Harmonische_Oscillator</title>
 
-<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=pwCldV_B78gj06OYi8mSvtTNMFzCxITYT6a7oazTSmByJfi4D1SGpt0Ndi-i2wzRS7B1L6OD-3BwspveUWbjuBZo83GO6LT5OAAgR8nAkXPXsQ4ggM4CdUfBmPqSc96mYKc8DhgNm6Ndhg8sHrutc5EV4yrg6jOG27sqg32Z-rfyFCfiqg5CtRqxJTtrlD0DNpC9voiVl6-MijM3JUDQ8c2Dx9V7Uhs__pFq7kIMggNC0YTc_B6is1iD9uvk4izO" charset="UTF-8"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=L7zpPOpnaLwl7NAyCqNeQtCxuAeeSabvBP6ublvtNxTjT4J06wdg6lhg-fCSTc7o3O_Luj21apEPuxOZhtlPip3hqoqCmFWeD5-O84J1ttkr8nUW8uTpLYkg_u5dsmly42wqCw8HqLcL3o4Q07TdBC5gdAcT5HhQMsrn3D4Pya9QIrsStC-1v0G4Pf1nZKJGbKz02xfqsqn7_LgydP_MMUb-PwY67gWvXjFuGSyco-1HGPaku2emVQL-L-BTV6Vb" charset="UTF-8"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
@@ -13326,8 +13325,12 @@ $$\psi_0(x) = \frac{1}{\pi^{1/4}} e^{-x^2/2}$$
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
 <h4 id="Oplossen-van-de-tijdsafhankelijke-Schrodinger-vergelijking">Oplossen van de tijdsafhankelijke Schrodinger vergelijking<a class="anchor-link" href="#Oplossen-van-de-tijdsafhankelijke-Schrodinger-vergelijking">&#182;</a></h4><p>Nu we de eigenfuncties $\psi_n(x)$ hebben, kunnen we de tijdsafhankelijke Schrodinger vergelijking oplossen. We gaan hiervoor te werk zoals in het college is besproken. De eerste stap is het definieren van een golffunctie, $\Psi(x,t=0)\equiv \Psi_0(x)$ als beginconditie.</p>
-<p>We kiezen er nu voor om een dubbel Gaussische verdeling te definieren met parameters zoals hieronder aangegeven.</p>
-<p><strong>Als je 1x door deze opgave bent heengegaan, herhaal dan met de dubbele Gauss met een relatief minteken, en met een enkele Gauss voor $\Psi_0$</strong></p>
+<p>Herhaal alle onderstaande berekeningen voor de volgende begincondities:</p>
+<ul>
+<li>$\Psi_0(x)$ = Gauss + Gauss</li>
+<li>$\Psi_0(x)$ = Gauss - Gauss</li>
+<li>$\Psi_0(x)$ = Gauss</li>
+</ul>
 
 </div>
 </div>
@@ -13380,7 +13383,9 @@ $$\psi_0(x) = \frac{1}{\pi^{1/4}} e^{-x^2/2}$$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>3h)</strong> Bereken de coefficienten $c_n$. Als je een dubbel Gaussische verdeling hebt gedefinieerd voor $\Psi(x,t=0)$ leg dan uit wat opvalt aan $c_n$. Verklaar wat je ziet - beantwoord deze vraag voor beide $\Psi_0$.</p>
+<p><strong>3h)</strong> Bereken de coefficienten $c_n$ met onze 'standaard methode':
+$$c_n = \int_{-\infty}^{+\infty} \psi_n^*(x) \Psi_0(x) dx$$</p>
+<p>Als je een dubbel Gaussische verdeling hebt gedefinieerd voor $\Psi(x,t=0)$ leg dan uit wat opvalt aan $c_n$.</p>
 
 </div>
 </div>
@@ -13448,7 +13453,7 @@ $$\psi_0(x) = \frac{1}{\pi^{1/4}} e^{-x^2/2}$$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>3j)</strong> En animeer maar die golffunctie.</p>
+<p><strong>3j)</strong> En animeer maar die golffunctie (duurt even, maar dan heb je ook wat).</p>
 <ul>
 <li>Verklaar wat je ziet. </li>
 <li>Leg uit of we hier te maken hebben met typisch klassiek of typisch quantum gedrag. Voor zowel alle $\Psi_0(x)$.</li>
@@ -13518,6 +13523,11 @@ $$\psi_0(x) = \frac{1}{\pi^{1/4}} e^{-x^2/2}$$
                                <span class="n">frames</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">interval</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">blit</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
 <span class="n">anim</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;basic_animation.mp4&#39;</span><span class="p">,</span> <span class="n">fps</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">extra_args</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;-vcodec&#39;</span><span class="p">,</span> <span class="s1">&#39;libx264&#39;</span><span class="p">])</span>
+
+<span class="c1">#</span>
+<span class="c1"># Hieronder zie je maar een enkele screenshot.... </span>
+<span class="c1"># Voer de notebook cell hieronder uit om de animatie te bekijken</span>
+<span class="c1">#</span>
 </pre></div>
 
     </div>
@@ -13536,6 +13546,19 @@ $$\psi_0(x) = \frac{1}{\pi^{1/4}} e^{-x^2/2}$$
 <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
 
 <span class="n">HTML</span><span class="p">(</span><span class="n">anim</span><span class="o">.</span><span class="n">to_html5_video</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
     </div>
